@@ -21,7 +21,7 @@ func TestNextToken(test *testing.T) {
 		{token.COMMA, ","},
 		{token.SEMICOLON, ";"},
 		{token.RPAREN, ")"},
-		{token.EOF, "EOF"},
+		{token.EOF, ""},
 	}
 
 	_lexer := NewLexer(input)
