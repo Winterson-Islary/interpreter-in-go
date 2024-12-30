@@ -9,7 +9,7 @@ func TestNextToken(test *testing.T) {
 	/*
 		test1_input := `(+=(){},;)`
 
-		tests  := []struct {
+		tests1  := []struct {
 			expectedType    token.TokenType
 			expectedLiteral string
 		}{
@@ -47,13 +47,14 @@ func TestNextToken(test *testing.T) {
 		{token.IDENT, "ten"},
 		{token.ASSIGN, "="},
 		{token.INT, "10"},
-		{token.ASSIGN, "="},
+		{token.SEMICOLON, ";"},
 		{token.LET, "let"},
 		{token.IDENT, "add"},
 		{token.ASSIGN, "="},
 		{token.FUNCTION, "fn"},
 		{token.LPAREN, "("},
 		{token.IDENT, "x"},
+		{token.COMMA, ","},
 		{token.IDENT, "y"},
 		{token.RPAREN, ")"},
 		{token.LBRACE, "{"},
