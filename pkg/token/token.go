@@ -22,6 +22,8 @@ const (
 	SLASH     = "/"
 	COMMA     = ","
 	SEMICOLON = ";"
+	LT        = "<"
+	GT        = ">"
 	LPAREN    = "("
 	RPAREN    = ")"
 	LBRACE    = "{"
