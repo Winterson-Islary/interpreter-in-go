@@ -35,6 +35,8 @@ const (
 	IF        = "IF"
 	ELSE      = "ELSE"
 	RETURN    = "RETURN"
+	EQUAL     = "=="
+	NOT_EQUAL = "!="
 )
 
 func NewToken(tokenType TokenType, literal byte) Token {
