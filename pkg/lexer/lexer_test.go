@@ -33,6 +33,8 @@ func TestNextToken(test *testing.T) {
 	};
 
 	let result = add(five, ten);
+	!-/*5;
+	5 < 10 > 5;
 	`
 	tests2 := []struct {
 		expectedType    token.TokenType
